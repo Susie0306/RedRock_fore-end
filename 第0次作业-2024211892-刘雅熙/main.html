@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>一个网页</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    h2,
+    h3 {
+      text-align: left;
+    }
+
+    p {
+      text-align: left;
+      font-size: 14px;
+      font-weight: normal;
+    }
+
+    .pink-box {
+      width: 120px;
+      height: 100px;
+      background-color: pink;
+      text-align: left;
+      line-height: 100px;
+      font-weight: normal;
+    }
+
+    .pink-box a {
+      text-decoration: none;
+      color: inherit;
+      font-weight: normal;
+    }
+
+    table {
+      width: 400px;
+      border-collapse: collapse;
+    }
+
+    table th,
+    table td {
+      border: 1px solid #ccc;
+      padding: 5px;
+    }
+
+    table th {
+      text-align: center;
+      font-weight: normal;
+    }
+
+    table td {
+      text-align: left;
+      font-weight: normal;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>二级标题</h2>
+  <p>不知道写啥。</p>
+  <h3>三级标题</h3>
+  <p>一张图片。</p>
+  <img src="海神套pv海面.jpg" width="500" />
+  <div class="pink-box">
+    盒子
+  </div>
+  <a href="https://www.baidu.com">点击我可以跳到百度哦</a>
+  <ul>
+    <li>我</li>
+    <li>是</li>
+    <li>无</li>
+    <li>序</li>
+    <li>表</li>
+  </ul>
+
+  <input type="text" style="width: 300px;" placeholder="我是一个宽300px但是输入什么都没用的输入框">
+  <button disabled>不管怎么按都没用的按钮</button>
+  <form>
+    <table>
+      <tr>
+        <th>用户名:</th>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <th>密码:</th>
+        <td><input type="password"></td>
+      </tr>
+      <tr>
+        <td colspan="2" style="text-align: center;">
+          <input type="submit" value="提交">
+          <input type="reset" value="重置">
+        </td>
+      </tr>
+    </table>
+
+    <p>自我介绍</p>
+    <label>性别：
+      <input type="radio" name="gender" value="男">男
+      <input type="radio" name="gender" value="女">女
+    </label>
+    <label>城市: <input type="text" value="重庆"></label>
+    <label>爱好:<input type="checkbox">打游戏 <input type="checkbox">看电影 <input type="checkbox">听音乐 <input
+        type="checkbox">运动<br />
+      目标：<textarea style="width:300px; height:100px;" placeholder="我要努力加入Web前端！加油！"></textarea>
+    </label>
+  </form>
+</body>
+
+</html>
